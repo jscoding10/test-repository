@@ -1,0 +1,79 @@
+/* Box Model Hack */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Clear fix hack */
+  .clearfix:after {
+       content: ".";
+       display: block;
+       clear: both;
+       visibility: hidden;
+       line-height: 0;
+       height: 0;
+  }
+  
+  .clear {
+      clear: both;
+  }
+  
+  /******************************************
+  /* BASE STYLES
+  /*******************************************/
+  
+  body {
+  
+  }
+  
+  
+  /******************************************
+  /* LAYOUT
+  /*******************************************/
+  nav, main, aside{
+    float: left;
+    width: 10%;
+  }
+  main{
+    width: 50%;
+  }
+  aside{
+    width: 40%;
+  }
+  .new-line{
+    display: block;
+    text-decoration: none;
+  }
+  .no-bullets{
+    list-style: none;
+    float: left;
+    padding: none;
+  }
+  ul, li{
+    margin: 0;
+    padding: 0;
+  }
+  .spacing {
+    padding-bottom: 10px;
+    color: gray;
+  }
+ .nav-style{
+  color: gray;
+  text-decoration: none;
+ }
+  
+ .diff-color{
+  color: gold;
+ }
+ img {
+  display: block;
+ }
+
+ .aside-border{
+  border: 3px solid black;
+ }
+ .activision-logo{
+  width: 50%;
+ }
+  /******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
